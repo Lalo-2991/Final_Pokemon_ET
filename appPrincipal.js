@@ -40,10 +40,10 @@ const obtenerPokemones = async () => {
     //console.log(datos.results[0].name);
 
     for (result in datos.results) {
-      const nuevoPoke = datos.results[result].name;
+      //const nuevoPoke = datos.results[result].name;
       const urlPoke = datos.results[result].url;
 
-      listaPokemon.push(nuevoPoke);
+      //listaPokemon.push(nuevoPoke);
       listaUrlPokemon.push(urlPoke);
     }
     obtenerDatosPokemon();
